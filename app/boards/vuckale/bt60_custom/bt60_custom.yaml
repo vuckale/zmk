@@ -1,0 +1,16 @@
+identifier: bt60_custom/nrf52840
+name: bt60_custom
+vendor: vuckale
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
